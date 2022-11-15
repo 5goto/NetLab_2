@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Сравнительная таблица гитар</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <h1 align="center">MusicRoom</h1>
+    <hr>
+    <h2><a href="index.html">MusicRoom</a> - лучшее место, где вы можете опробовать интересующие вас музыкальные инструменты и музыкальное оборудование</h2>
+    <hr>
+    <!-- Построение графика -->
+    <details>
+        <summary> Построение графика </summary>
+        <form>
+            <table>
+              <tr>
+                <th>Значениe по оси OX</th>
+                <th>Результат</th>
+              </tr>
+              <tr>
+                <td>
+                  <input type="radio" name="absc" value="0">Цена<br>
+
+                </td>
+                <td>
+                  <input type="checkbox" name="ord" value="0">Самые дорогие<br>
+                </td>
+              </tr>
+            </table>
+    		<input type=button value="Построить график">
+    	</form>
+    </details>
+    <!-- Сортировка -->
+    <details>
+    <summary>Сортировка</summary>
+    <form>
+	  <p>
+          <select name="sortFirst">
+            <option value="0">Название</option>
+            <option value="1">Количество ладов</option>
+            <option value="2">Цена</option>
+            <option value="3">Материал топа</option>
+            <option value="4">Цвет</option>
+
+      <input type=button value="Сортировка">
+	</form>
+</details>
+
+
+<details>
+    <summary> Фильтр</summary>
+    <form>
+        <p>
+           <label for="BrandName">Бренд</label> <br>
+		   <input type=text name="Brand">
+        </p>
+        <p>
+		    <label for="topMat">Материал топа</label> <br>
+            <input type=text name="topMaterial">
+        </p>
+        <p>
+		   <label for="fret">Количество ладов </label> <br>
+          Минимум <input type=text name="fretNumPre"> Максимум <input type=text name="fretNumTo">
+        </p>
+		 <p>
+		   <label for="color">Цвет</label> <br>
+           <input type=text name="colorName">
+        </p>
+ 		<p>
+		  <label for="yFrom">Цена</label> <br>
+           От <input type=text name="pricePre"> До <input type=text name="priceTo">
+        </p>
+        <input type=button value="Поиск">
+	</form>
+</details>
+
+<br>
+<br>
+    <!-- Таблица -->
+    <table border="3" cellpadding="5" cellspacing="0">
+		<font size="5">
+			<th>
+				Название
+			</th>
+			<th>
+  			Материал топа
+			</th>
+			<th>
+				Количество ладов
+			</th>
+			<th>
+				Цвет
+			</th>
+			<th>
+				Цена(руб.)
+			</th>
+		</font>
+		<tr>
+			<td>Cort KX300-Etched-EBG KX Series</td>
+			<td>Красное дерево</td>
+			<td>22</td>
+			<td>Фиолетовый</td>
+			<td>35 000</td>
+		</tr>
+		<tr>
+			<td>Prodipe JMFST80MAFR</td>
+			<td>Ель</td>
+			<td>24</td>
+			<td>Красный металлик</td>
+			<td>20 000</td>
+		</tr>
+		<tr>
+			<td>JACKSON JS11</td>
+			<td>Ясень</td>
+			<td>24</td>
+			<td>Синий металлик</td>
+			<td>50 000</td>
+		</tr>
+		<tr>
+			<td>Homage HEG310BK</td>
+			<td>22</td>
+			<td>326,45</td>
+			<td>Черный</td>
+			<td>15 000</td>
+		</tr>
+		<tr>
+			<td>SCHECTER SGR S-1</td>
+			<td>24</td>
+			<td>1710,00</td>
+			<td>Черный металлик</td>
+			<td>67 400</td>
+		</tr>
+		<tr>
+			<td>Cort Sunset-TC-OPMY</td>
+			<td>Ель</td>
+			<td>21</td>
+			<td>Санберст</td>
+			<td>37 000</td>
+		</tr>
+		<tr>
+			<td>GIBSON SG STANDARD HP 2017</td>
+			<td>Красное дерево</td>
+			<td>21</td>
+			<td>Красный металлик</td>
+			<td>39 000</td>
+		</tr>
+		<tr>
+			<td>Cort X700-Mutility-BKS</td>
+			<td>Красное дерево</td>
+			<td>22</td>
+			<td>Черный металлик</td>
+			<td>86 300</td>
+		</tr>
+		<tr>
+			<td>Cort Yorktown-BV-TAB</td>
+			<td>Ель</td>
+			<td>22</td>
+			<td>Санберст</td>
+			<td>44 200</td>
+		</tr>
+		<tr>
+			<td>G&L Tribute Legacy</td>
+			<td>Ель</td>
+			<td>21</td>
+			<td>Голубой</td>
+			<td>90 000</td>
+		</tr>
+		<tr>
+			<td>IBANEZ GRG7221QA-TKS</td>
+			<td>Тополь</td>
+			<td>24</td>
+			<td>Черный металлик</td>
+			<td>70 000</td>
+		</tr>
+		<tr>
+			<td>Yamaha RGX220DZ</td>
+			<td>Ясень</td>
+			<td>24</td>
+			<td>Синий металлик</td>
+			<td>48 900</td>
+		</tr>
+		<tr>
+			<td>Yamaha RGX220DZ MTR</td>
+			<td>Красное дерево</td>
+			<td>22</td>
+			<td>Красный металлик</td>
+			<td>48 900</td>
+		</tr>
+		<tr>
+			<td>Caraya E235BK</td>
+			<td>Ель</td>
+			<td>21</td>
+			<td>Черный</td>
+			<td>10 000</td>
+		</tr>
+		<tr>
+			<td>Cort G250-LH-BK</td>
+			<td>Тополь</td>
+			<td>22</td>
+			<td>Санберст</td>
+			<td>45 000</td>
+		</tr>
+		<tr>
+			<td>Cort Sunset-Nylectric-NAT</td>
+			<td>Красное дерево</td>
+			<td>21</td>
+			<td>Санберст</td>
+			<td>44 300</td>
+		</tr>
+		<tr>
+			<td>Godin 047116 Summit Classic</td>
+			<td>Ясень</td>
+			<td>22</td>
+			<td>Черный</td>
+			<td>9999</td>
+		</tr>
+		<tr>
+			<td>Cort Sunset-TC-OPMY</td>
+			<td>Ель</td>
+			<td>22</td>
+			<td>Красный металлик</td>
+			<td>43 000</td>
+		</tr>
+		<tr>
+			<td>Fender Squier Affinity Series Telecaster</td>
+			<td>Ель</td>
+			<td>22</td>
+			<td>Синий</td>
+			<td>33 900</td>
+		</tr>
+		<tr>
+			<td>LAG A66-BLK</td>
+			<td>Ясень</td>
+			<td>22</td>
+			<td>Санберст</td>
+			<td>22 000</td>
+		</tr>
+		<tr>
+			<td>Swing SG-100-WR</td>
+			<td>21</td>
+			<td>48,16</td>
+			<td>Синий металлик</td>
+			<td>12 120</td>
+		</tr>
+		<tr>
+			<td>Swing CD1-Bk</td>
+			<td>Красное дерево</td>
+			<td>24</td>
+			<td>Красный металлик</td>
+			<td>15 600</td>
+		</tr>
+	</table>
+
+    <!-- Нижний участок -->
+    <p align=right>Позвоните нам: +724444568904</p>
+    <p align=right>Оставьте заявку: someMail@gmail.com</p>
+    <p align=right>Приходите: г. Владивосток, улица Некрасовская, д.3</p>
+  </body>
+</html>
